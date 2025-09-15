@@ -11,17 +11,17 @@ fn main() {
         let b = list2[i];
 
         // Addition
-        println("Addition :");
+        println!("Addition :");
         let sum = add(a, b);
         println!("{} + {} = {}", a, b, sum);
 
         // Multiplication
-        println("Multiplication :");
+        println!("Multiplication :");
         let product = multiply(a, b);
         println!("{} * {} = {}", a, b, product);
 
         // Division
-        println("Divison :");
+        println!("Divison :");
         match divide(a, b) {
             Some(quotient) => println!("{} / {} = {}", a, b, quotient),
             None => println!("{} / {} = Division by zero is not allowed", a, b),
